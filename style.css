@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+}
+
+body {
+    background-color: rgb(91, 147, 197);
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.questions {
+    margin-top: 40px;
+}
+
+.questions .title {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    align-items: center;
+    align-items: baseline;
+    color: #444426;
+}
+
+.section-center {
+    background-color: aqua;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.question .question-title {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid #444426;
+    position: relative;
+}
+
+.question .question-title button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: rgb(114, 102, 102);
+}
+.question .question-title button:hover {
+    transform: rotate(90deg);
+    transition:1s;
+}
+
+
+.question .question-title button .miunus-icon {
+display: none;
+}
+
+.question .question-title .question-text {
+    font-size: 20px;
+    padding: 20px;
+    line-height: 20px;
+    color: rgb(67, 87, 153);
+}
+.question .question-title.show-text .question-text p{
+ display: none;
+}
+
+.question .question-title.show-text .plus-icon {
+    display: none;
+}
+.question .question-title.show-text .miunus-icon {
+    display: block;
+}
